@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{
+    int x;
+    printf("Enter a number: ");
+    scanf("%d", &x);
+    
+    switch(x)
+    {
+        case 1: {
+            printf("Pizza - Rs.250");
+        }
+        break;
+        case 2: {
+            printf("Burger - Rs. 350");
+        }
+        break;
+        case 3: {
+            printf("Milkshake - Rs. 450");
+        }
+        break;
+        default: printf("Please enter something that is in the menu");
+    }
+}
